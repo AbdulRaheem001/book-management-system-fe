@@ -1,6 +1,7 @@
 import React from 'react';
 import './globals.css'; // Import the CSS file
 import Navbar from '@/pages/navebar';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,8 +14,8 @@ export default function Home() {
       </div>
 
       <div className="buttons-container">
-        <a href="/login" className="button login-button">Login</a>
-        <a href="/signup" className="button signup-button">Sign Up</a>
+        <Link href="/login" className="button login-button">Login</Link>
+        <Link href="/signup" className="button signup-button">Sign Up</Link>
       </div>
     </main>
     </>
