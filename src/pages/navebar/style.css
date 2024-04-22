@@ -1,0 +1,102 @@
+/* style.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .nav-links a.nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-content span {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .dropdown-content span:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .confirmation-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-popup p {
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-popup .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .confirmation-popup button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .confirmation-popup button:hover {
+    background-color: #0056b3;
+  }
+  
